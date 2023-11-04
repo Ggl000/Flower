@@ -1,24 +1,24 @@
-# Compiled class file
-*.class
+// Created by GGL 
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+public class Program
+{
+    public static void main(String[] args) {
+ //created for more explanation   
+   
+   
+   //number of pattern say 20 or any number   
+  int n=20;    
+  //outter loop
+        for (int k=1; k<20; k++)
+        {
+//inner loop
+//In the inner loop you can see that m is a new variable which will help execute the previous k variable, that is why m is less than or equal to k
+            for (int m=1; m<=k; m++){
+//pattern to be printed
+                System.out.print("🌹");}
+                System.out.println();
+            }            
+     
+      //you can copy, alter and use the code 
+    }
+}
